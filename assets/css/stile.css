@@ -1,0 +1,114 @@
+html
+{
+    font-family: 'Fira Sans';
+}
+
+.btn
+{
+    color: white;
+    background: linear-gradient(14deg, rgba(202,200,221,1) 0%, rgba(153,153,233,1) 44%, rgba(0,212,255,1) 100%);
+
+}
+
+.fa-stack
+{
+    vertical-align: top;
+}
+
+/* HOME */
+
+.main-home
+{
+    margin: 0;
+    padding: 0;
+}
+
+.inizio-main-home
+{
+    color: white;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 5rem 2rem;
+}
+
+@media screen and (min-width: 992px)
+{
+    .inizio-main-home
+    {
+        padding: 15rem 2rem;
+    }
+}
+
+article i 
+{
+    color: red;
+}
+
+.centrata
+{
+    text-align: center;
+}
+
+.centrata.py-5
+{
+    background: darkblue;
+    color: white;
+}
+
+@media screen and (max-width: 440px) {
+    .img-notebook{
+    width: 100%;
+    }
+    
+}
+
+.rientro
+{
+    padding-left: 2rem;
+}
+
+/* CHI SIAMO */
+
+.chi-siamo
+{
+    text-align: center;
+}
+
+.corso
+{
+    padding: 1em 1em;
+    background-color: #eaeaea;
+}
+
+.inclinato
+{
+    padding: 3em 1em;
+    font-weight: bold;
+    text-align: center;
+    transform: skewX(-6deg);
+}
+
+.uno
+{
+    background-color: aquamarine;
+}
+
+.due
+{
+    background-color: red;
+}
+
+.tre
+{
+    background-color: yellow;
+}
+
+/* INFO */
+
+.info-mail
+{
+    text-decoration: none;
+    color: black;
+}
