@@ -15,12 +15,32 @@ html
     vertical-align: top;
 }
 
+h1, h2, h3, h4, h5, h6
+{
+    color: darkblue;
+}
+
+p
+{
+    color: darkgray;
+}
+
+footer p
+{
+    color: black;
+}
+
 /* HOME */
 
 .main-home
 {
     margin: 0;
     padding: 0;
+}
+
+article h1
+{
+    color: white;
 }
 
 .inizio-main-home
@@ -54,6 +74,10 @@ article i
 .centrata.py-5
 {
     background: darkblue;
+}
+
+.centrata.py-5 h2, .centrata.py-5 p
+{
     color: white;
 }
 
@@ -74,6 +98,11 @@ article i
 .chi-siamo
 {
     text-align: center;
+}
+
+.col-md.m-1 h3, .col-md.m-1 p
+{
+    color: black;
 }
 
 .corso
