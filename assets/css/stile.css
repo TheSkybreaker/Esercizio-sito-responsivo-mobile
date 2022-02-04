@@ -95,11 +95,6 @@ article i
 
 /* CHI SIAMO */
 
-.chi-siamo
-{
-    text-align: center;
-}
-
 .col-md.m-1 h3, .col-md.m-1 p
 {
     color: black;
@@ -139,5 +134,5 @@ article i
 .info-mail
 {
     text-decoration: none;
-    color: black;
+    color: darkgray;
 }
